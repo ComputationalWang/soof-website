@@ -9,15 +9,17 @@ const App = () => {
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <components.Hero />
-        </div>
-
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
+          <components.Home />
         </div>
       </div>
+      <div className={`${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+        <components.Menu />
+        <components.AboutUs />
+        <components.Contact />
+        </div>
       </div>
     </div>
   )

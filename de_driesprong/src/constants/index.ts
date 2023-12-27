@@ -17,73 +17,41 @@ export const navLinks = [
   },
 ];
 
-export const hero_text = {
+export const aboutus_text = {
+  title: "Over ons",
+  content: "Zo sissend in de frituur, een feest voor de neus, Een lekkernij, geliefd bij jong en oud, een frikandel vol keus. Goudbruin gebakken, knapperig aan de buitenkant, Een hartige verrassing, een delicatesse in Nederland. Gevuld met kruiden, een mix van smaken zo fijn, Een frikandel, een culinair meesterwerk, oh zo klein. Mosterd aan de zij, een perfecte compagnon, De smaakexplosie begint, een reis die nooit begon. In elke hap proef je de traditie, de culinaire kunst, Een frikandel, een symfonie, een delicatesse vol lust. Dus pak er een, geniet met smaak en met zin, Een stukje Nederland op je bord, de frikandel, zo fijn."
+}
+
+export const opening_hours_text = {
+  title: "Openingstijden",
+  content: "Maandag       gesloten \n" + 
+            "Dinsdag          11:30-21:00 \n" +
+            "Woensdag     11:30-21:00 \n" +
+            "Donderdag    11:30-21:00 \n" +
+            "Vrijdag            11:30-22:00 \n" +
+            "Zaterdag        11:30-22:00 \n" +
+            "Zondag           11:30-21:00 \n"
+}
+
+export const contact_text = {
+  title: "Contact",
+  content: "Tel. 0546 658 685"
+}
+
+export const home_text = {
   title: "Het beste frietent in Nederland",
   content: "Met onze verrizzend lage prijzen en hoge kwaliteit, kom je nooit van ons af."
 }
 
-export const features = [
-  {
-    id: "feature-1",
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
-  },
-  {
-    id: "feature-2",
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
-  {
-    id: "feature-3",
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
+export const advertisement_text = {
+  title: "Onze aanbeveling",
+  content: "Een patatje voor echte waaghalzen, patatje daging smoor. Een patatje met een tof sausje."
+}
 
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
+export const menu_text = {
+  title: "Ons menu",
+  content: "Een geweldig assortiment met de beste prijzen."
+}
 
 export const footerLinks = [
   {
@@ -153,21 +121,9 @@ export const footerLinks = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
+    id: "social-media",
     link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    link: "https://www.linkedin.com/",
-  },
+  }
 ];
 
 export const clients = [

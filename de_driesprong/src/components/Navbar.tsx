@@ -6,8 +6,11 @@ const Navbar = () => {
   return (
     <nav className='w-full flex py-6 
     justify-between items-center navbar'>
+        <a href='#home'>
         <img src={logo} alt="de_driesprong"
         className='w-[300px] h-[57px]' />
+        </a>
+
         
         <ul className='list-none sm:flex 
         hidden justify-end items-center flex-1'>

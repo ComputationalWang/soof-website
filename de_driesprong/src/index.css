@@ -72,8 +72,8 @@
   );
 }
 
-.bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+.bg-red {
+  background:#DD2E2F;
 }
 
 .box-shadow {
@@ -136,6 +136,11 @@
 
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.yellow__gradient {
+  background: linear-gradient(90deg, #f5f39c 0%, #edcc3b 100%);
   filter: blur(750px);
 }
 
