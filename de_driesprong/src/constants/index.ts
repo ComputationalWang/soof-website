@@ -17,6 +17,11 @@ export const navLinks = [
   },
 ];
 
+export const hero_text = {
+  title: "Het beste frietent in Nederland",
+  content: "Met onze verrizzend lage prijzen en hoge kwaliteit, kom je nooit van ons af."
+}
+
 export const features = [
   {
     id: "feature-1",
