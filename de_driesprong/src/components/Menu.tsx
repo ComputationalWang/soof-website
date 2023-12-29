@@ -2,6 +2,8 @@ import { advertisement_text, menu_text } from '../constants'
 import styles from '../style'
 import { dagingsmoor } from '../assets'
 import { Button } from '.'
+import {ImageCarousel} from '.'
+
 
 function Menu() {
   return (
@@ -12,11 +14,7 @@ function Menu() {
             <h1 className='font-poppins
             font-bold ss:text-[54px] text-[42px] text-black 
             ss:leading-[80px] leading-[60px] w-full'>{advertisement_text.title}</h1>
-            <img src={dagingsmoor} alt="dagingsmoor" 
-            className='xl:w-[65%] w-[100%] h-[100%] rounded-3xl'/>
-            <p className={`${styles.paragraph} 
-                max-w-[470px] mt-5`}>{advertisement_text.content}
-            </p>
+            <ImageCarousel />
         </div>
         <div className={`${styles.flexStart}
         flex-col xl:px-0 sm:px-16 px-6 xl:ml-[8%]`}>

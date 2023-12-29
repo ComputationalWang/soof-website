@@ -147,3 +147,9 @@
 .bg-primary {
   background: #f0ffff;
 }
+
+a:link {
+  color: #0000EE;
+  background-color: transparent;
+  text-decoration: none;
+}

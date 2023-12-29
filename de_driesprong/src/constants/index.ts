@@ -17,9 +17,21 @@ export const navLinks = [
   },
 ];
 
-export const aboutus_text = {
+
+export const contact_text = {
+  title: "Contact",
+  phone: "+0546 658 685",
+  facebook: "@De Driesprong",
+  location: "Sibculoseweg 5, 7676 PA Westerhaar-Vriezenveensewijk"
+}
+
+export const about_us_text = {
   title: "Over ons",
-  content: "Zo sissend in de frituur, een feest voor de neus, Een lekkernij, geliefd bij jong en oud, een frikandel vol keus. Goudbruin gebakken, knapperig aan de buitenkant, Een hartige verrassing, een delicatesse in Nederland. Gevuld met kruiden, een mix van smaken zo fijn, Een frikandel, een culinair meesterwerk, oh zo klein. Mosterd aan de zij, een perfecte compagnon, De smaakexplosie begint, een reis die nooit begon. In elke hap proef je de traditie, de culinaire kunst, Een frikandel, een symfonie, een delicatesse vol lust. Dus pak er een, geniet met smaak en met zin, Een stukje Nederland op je bord, de frikandel, zo fijn."
+  content_1: "Wij zijn een klein familie bedrijf die dit prachtige cafetaria hebben mogen overnemen per 2024. " +
+  "We hebben besloten om weer de vertrouwde naam de Driesprong te gebruiken! \n",
+  content_2: "U kunt bij ons terecht voor al uw favorieten van de hoogste kwaliteit.",
+  content_3: "Wilt u een keer iets anders? Geen probleem! Ons grote assortiment biedt verschillende nieuwe gerechten. Voor ieder wat wilds.",
+  content_4: `Kom gezellig een keer langs of bestel telefonisch op ${contact_text.phone}`
 }
 
 export const opening_hours_text = {
@@ -33,110 +45,19 @@ export const opening_hours_text = {
             "Zondag           11:30-21:00 \n"
 }
 
-export const contact_text = {
-  title: "Contact",
-  content: "Tel. 0546 658 685"
-}
+
 
 export const home_text = {
-  title: "Het beste frietent in Nederland",
-  content: "Met onze verrizzend lage prijzen en hoge kwaliteit, kom je nooit van ons af."
+  title: "Welkom bij Cafetaria de Driesprong",
+  content: "Gelegen aan de Sibculoseweg 5 te Westerhaar kunt u dagelijks bij ons terecht voor een groot assortiment maaltijden, frites, snacks, belegde broodjes en salades."
 }
 
 export const advertisement_text = {
-  title: "Onze aanbeveling",
-  content: "Een patatje voor echte waaghalzen, patatje daging smoor. Een patatje met een tof sausje."
+  title: "Probeert u ook eens",
+  content: "Na tientallen jaren ervaring in de Aziatische keuken presenteren wij u onze nieuwe creatie: de patatje daging smoor! Rundvlees gesmoord in een pikant indisch sausje gecombineerd met verse patat. Een speciaal patatje met een twist!"
 }
 
 export const menu_text = {
   title: "Ons menu",
-  content: "Een geweldig assortiment met de beste prijzen."
+  content: "Klik hier voor ons assortiment."
 }
-
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
-];
-
-export const socialMedia = [
-  {
-    id: "social-media",
-    link: "https://www.facebook.com/",
-  }
-];
-
-export const clients = [
-  {
-    id: "client-1",
-  },
-  {
-    id: "client-2",
-  },
-  {
-    id: "client-3",
-  },
-  {
-    id: "client-4",
-  },
-];
