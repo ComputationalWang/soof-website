@@ -6,7 +6,7 @@ const Button = () => {
       <button type='button' className={`py-4 px-6
       bg-red font-poppins font-medium
       text-[18px] text-primary outline-none mt-10
-      rounded-2xl`}>
+      rounded-2xl text-[30px] ss`}>
         Menu
       </button>
     </a>
