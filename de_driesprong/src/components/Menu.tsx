@@ -19,7 +19,7 @@ function Menu() {
         <div className={`${styles.flexStart}
         flex-col xl:px-0 sm:px-16 px-6 xl:ml-[8%]`}>
             <h1 className='font-poppins
-            italic font-semibold ss:text-[40px] text-[39px] text-black w-full'>{menu_text.title}</h1>
+            md:italic font-semibold ss:text-[40px] text-[39px] text-black w-full'>{menu_text.title}</h1>
             <p className={`${styles.paragraph} 
                 max-w-[250px]`}>{menu_text.content}
             </p>

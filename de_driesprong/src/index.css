@@ -153,3 +153,8 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
+
+.text-clear {
+  color: #f0ffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
