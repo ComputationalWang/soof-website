@@ -76,6 +76,10 @@
   background:#DD2E2F;
 }
 
+.bg-dark-red {
+  background: #AD1A1B
+}
+
 .box-shadow {
   box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -145,7 +149,7 @@
 }
 
 .bg-primary {
-  background: #f0ffff;
+  background: #ffffff;
 }
 
 a:link {
@@ -156,5 +160,5 @@ a:link {
 
 .text-clear {
   color: #f0ffff;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
 }

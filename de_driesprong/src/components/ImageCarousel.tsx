@@ -7,6 +7,7 @@ import React from 'react';
 function createCarouselItems(images: { src: string; title: string; caption: string; alt: string }[]) {
   return images.map((element, index) => (
     <TECarouselItem
+      key={index}
       itemID={index + 1}
       className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[2000ms] ease-in-out motion-reduce:transition-none"
     >
@@ -17,7 +18,7 @@ function createCarouselItems(images: { src: string; title: string; caption: stri
       />
 <div className={`md:absolute md:h-[30%] bottom-5 py-5 w-[100%] text-center text-clear flex flex-col justify-between`}>
   <div>
-    <h5 className="sm:text-xs md:text-xl font-poppins font-bold">{element.title}</h5>
+    <h1 className="sm:text-xs md:text-xl font-poppins font-bold">{element.title}</h1>
     <p className={`${styles.small_text}`}>{element.caption}</p>
   </div>
 </div>

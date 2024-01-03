@@ -1,6 +1,5 @@
 import { advertisement_text, menu_text } from '../constants'
 import styles from '../style'
-import { dagingsmoor } from '../assets'
 import { Button } from '.'
 import {ImageCarousel} from '.'
 
