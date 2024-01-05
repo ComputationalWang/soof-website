@@ -4,10 +4,9 @@ import styles from "../style"
 function createParagraphs(textWithNewlines: string) {
   return textWithNewlines.split('\n').map((line, index) => (
     <div key={index}>
-      <p className="max-w-[500px] font-poppins" key={index}>{line}</p>
+      <p className={`max-w-[500px] font-poppins ${styles.paragraph}`}  >{line}</p>
       <br />
     </div>
-
   ));
 }
 

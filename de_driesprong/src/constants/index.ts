@@ -1,4 +1,4 @@
-import { dagingsmoor, spring_roll } from "../assets";
+import { spareribs, spring_roll } from "../assets";
 
 export const navLinks = [
   {
@@ -32,7 +32,7 @@ export const about_us_text = {
   content: "Wij zijn een klein familie bedrijf die dit prachtige cafetaria hebben mogen overnemen per 2024. " +
     "We hebben besloten om weer de vertrouwde naam de Driesprong te gebruiken! \n" +
     "U kunt bij ons terecht voor al uw favorieten van de hoogste kwaliteit. \n" +
-    "Wilt u een keer iets anders? Geen probleem! Ons grote assortiment biedt verschillende nieuwe gerechten. Voor ieder wat wilds. \n" +
+    "Wilt u een keer iets anders? Geen probleem! Ons grote assortiment biedt verschillende nieuwe gerechten. Voor ieder wat wils. \n" +
     `Kom gezellig een keer langs of bestel telefonisch op ${contact_text.phone}`,
 }
 
@@ -59,12 +59,19 @@ export const advertisement_text = {
 }
 
 export const images = [
+  // {
+  //   src: { dagingsmoor }.dagingsmoor,
+  //   title: "Patatje Daging Smoor",
+  //   caption: "Na tientallen jaren ervaring in de Aziatische keuken presenteren wij u onze nieuwe creatie: de patatje daging smoor! " + 
+  //   "Rundvlees gesmoord in een pikant indisch sausje gecombineerd met verse patat. Een speciaal patatje met een twist!",
+  //   alt: "daging_smoor"
+  // },
   {
-    src: { dagingsmoor }.dagingsmoor,
-    title: "Patatje Daging Smoor",
-    caption: "Na tientallen jaren ervaring in de Aziatische keuken presenteren wij u onze nieuwe creatie: de patatje daging smoor! " + 
-    "Rundvlees gesmoord in een pikant indisch sausje gecombineerd met verse patat. Een speciaal patatje met een twist!",
-    alt: "daging_smoor"
+    src: { spareribs }.spareribs,
+    title: "Spareribs",
+    caption: "Onze verrukkelijke spareribs! Dagelijks met liefde gegaard tot perfectie " + 
+    "in een zoetige kruidenmarinade zodat u kunt genieten van sappig vlees dat van het bot afvalt.",
+    alt: "spareribs"
   },
   {
     src: { spring_roll}.spring_roll,
