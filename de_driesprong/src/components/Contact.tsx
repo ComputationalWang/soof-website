@@ -16,7 +16,7 @@ const Contact = () => {
           <div className={`flex mt-5 items_center`}>
             <img src={location} alt="Location Icon" className="mr-2" />
             <a target="_blank" className={`${styles.a}`}
-              href="https://maps.app.goo.gl/K67Z8bBe3DexWinw8">
+              href="https://maps.app.goo.gl/6jw4Fk1wBSEmi9MWA">
               {contact_text.location}
             </a>
           </div>

@@ -13,10 +13,10 @@ function createCarouselItems(images: { src: string; title: string; caption: stri
     >
       <img
         src={element.src}
-        className="block lg:min-h-[650px] sm:min-h-[300px] rounded-3xl"
+        className="block w-full  rounded-3xl"
         alt={element.alt}
       />
-<div className={`md:absolute md:h-[120px] bottom-5 py-5 w-[100%] text-center text-clear flex flex-col justify-between`}>
+<div className={`xl:absolute md:h-[180px] bottom-5 py-5 w-[100%] text-center text-clear flex flex-col justify-between`}>
   <div>
     <h1 className="text-xl font-poppins font-bold">{element.title}</h1>
     <p className={`${styles.paragraph} text-white italic`}>{element.caption}</p>
