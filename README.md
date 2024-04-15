@@ -13,7 +13,7 @@ Step 3 Opening the site in a local file:
 
 Step 4 Editing pictures/text in the project:
 1. To edit the text go to [de_driesprong/src/constants/index.ts](de_driesprong/src/constants/index.ts). This contains all the info text given on the website. For example, `about_us_text` has the text with the about us; changing this will change that part.
-2. To edit or add pictures you can add them to the [de_driesprong/src/assets](de_driesprong/src/assets) folder, which contains all the images. This image then also has to be added into the [de_driesprong/src/assets/index.ts](de_driesprong/src/assets.index.ts) as a reference. This means that it needs to be added in the `export` part and also imported in the lines above such as `import logo from './logo_transparent.webp'`.
+2. To edit or add pictures you can add them to the [de_driesprong/src/assets](de_driesprong/src/assets) folder, which contains all the images. This image then also has to be added into the [de_driesprong/src/assets/index.ts](de_driesprong/src/assets/index.ts) as a reference. This means that it needs to be added in the `export` part and also imported in the lines above such as `import logo from './logo_transparent.webp'`.
 
 Step 5 Creating the files to upload on the provider:
 1. Write `npm run build` in the command terminal to create the files so the host can read it, this can be found in [de_driesprong/dist](de_driesprong/dist).
