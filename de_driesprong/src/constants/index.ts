@@ -22,7 +22,7 @@ export const navLinks = [
 
 export const contact_text = {
   title: "Contact",
-  phone: "+0546 658 685",
+  phone: "0546 658 685",
   facebook: "@De Driesprong",
   location: "Sibculoseweg 5, 7676 PA Westerhaar-Vriezenveensewijk"
 }
